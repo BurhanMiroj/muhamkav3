@@ -1,0 +1,189 @@
+// all
+// .navbar {
+//   box-shadow: 0 2px 10px #f8f8f8;
+//   background-color: #f8f8f8;
+// }
+.dropdown-toggle::after {
+  display: none !important;
+}
+.dropdown-toggle {
+  i {
+    font-size: 0.8em;
+  }
+}
+.navbar-nav {
+  .nav-item {
+    text-transform: uppercase;
+    .dropdown-menu {
+      margin-top: -0.01rem;
+      border-radius: 13px;
+      background: #ffffff;
+      border: 1px solid rgb(241, 241, 241);
+    }
+  }
+}
+.navbar-toggler:focus {
+  box-shadow: unset !important;
+}
+.navbar.shadow-navbar {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.btn-success {
+  padding: 7px 25px;
+}
+.nav-item {
+  font-weight: 600;
+  padding: 15px 0;
+  font-size: 0.9em;
+}
+.navbar-toggler {
+  i {
+    font-size: 1.1em;
+  }
+}
+.mobile-logo {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  img {
+    width: 130px;
+    max-width: 130px;
+    max-height: 150px;
+    margin: 60px 0;
+  }
+}
+// tablet
+@media (min-width: 768px) {
+  .navbar {
+    position: relative !important;
+    top: 0;
+    left: 0;
+  }
+}
+.navbar {
+  position: fixed !important;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: 0.7s all ease;
+  .navbar-nav {
+    position: relative;
+  }
+}
+@media screen and (max-width: 768px) {
+  .navbar-collapse {
+    width: 80% !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  .navbar-collapse {
+    width: 60% !important;
+  }
+}
+@media screen and (max-width: 992px) {
+  .navbar-toggler {
+    i {
+      color: #000;
+    }
+  }
+  .login-btn {
+    margin: 1rem;
+  }
+  .navbar {
+    padding: 10px 0 !important;
+    .navbar-brand {
+      width: 150px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .nav-item {
+    font-weight: 600;
+    padding: 5px 0;
+    font-size: 0.8em;
+  }
+  #close-layer {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 3;
+    background-color: #000;
+    opacity: 0.5;
+    cursor: pointer;
+    // target dengan javascript
+    display: none;
+  }
+  #close-layer.active {
+    display: block;
+  }
+  .navbar-collapse {
+    width: 60%;
+    overflow-y: scroll;
+    height: 100vh;
+    position: absolute;
+    z-index: 999 !important;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    background-color: #fff;
+    transition: 0.5s all ease;
+    &::-webkit-scrollbar {
+      width: 5px;
+      background-color: rgb(202, 202, 202);
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: #13714a;
+      border-radius: 5px;
+    }
+    .navbar-nav {
+      li {
+        border-bottom: 1px solid #ddd;
+        .dropdown-menu {
+          @include boxShadow();
+          margin: 20px;
+          li {
+            border: unset;
+            margin: 0 20px;
+            a {
+              margin: 0;
+            }
+          }
+        }
+        a {
+          margin: 0 20px;
+          color: #000;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 992px) {
+  .navbar-nav {
+    // width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    // background-color: #ddd;
+  }
+  .mobile-logo {
+    display: none;
+  }
+  .nav-item.dropdown {
+    &:hover .dropdown-menu {
+      display: block;
+    }
+  }
+  .navbar-nav {
+    margin-left: -8rem;
+    padding: 0;
+  }
+  .navbar-collapse {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+// target dengan javascript
+.navbar-collapse.navbar-active {
+  transform: translateX(0);
+}

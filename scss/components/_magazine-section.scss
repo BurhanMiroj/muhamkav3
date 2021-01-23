@@ -1,0 +1,73 @@
+@import "../utilities/mixin";
+.download-btn {
+  color: #fff;
+  background-color: #13714a;
+  transition: 0.5s all ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  padding: 0 20px;
+  height: 40px;
+  border-radius: 3px;
+  font-size: 0.9rem;
+  i {
+    font-size: 1rem;
+    margin-right: 10px;
+  }
+  &:hover {
+    color: #ddd;
+  }
+}
+.tab-link.active {
+  background-color: #ddd !important;
+  color: #fff !important;
+}
+.pdf-viewer {
+  width: 300px;
+}
+.download-btn {
+  margin: 10px 0;
+}
+.majalah-description {
+  text-indent: 60px;
+  text-align: justify;
+}
+@media (max-width: 992px) {
+  .majalah-description {
+    padding: 30px 5px;
+  }
+  .majalah-img-wrapper,
+  .description {
+    width: 100% !important;
+  }
+  .download-btn:nth-child(2) {
+    margin: 10px;
+  }
+  .majalah-img-wrapper {
+    justify-content: center !important;
+  }
+  .tab-link {
+    font-size: 0.7rem;
+  }
+}
+@media (max-width: 768px) {
+  .download-btn {
+    font-size: 0.7rem;
+    width: 140px;
+    padding: 0;
+    i {
+      margin-right: 5px;
+    }
+  }
+  .majalah-description {
+    text-indent: 40px;
+    @include mainFont;
+    padding: 20px 0;
+  }
+}
+@media (min-width: 768px) {
+  .majalah-description {
+    font-size: 1rem;
+  }
+}

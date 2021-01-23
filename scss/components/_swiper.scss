@@ -1,0 +1,37 @@
+.swiper-container {
+  width: 100%;
+  max-width: 1370px;
+  overflow-x: hidden;
+  height: 100%;
+}
+.swiper-slide {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: .3;
+  img {
+    width: inherit;
+    height: inherit;
+  }
+}
+.swiper-slide-active {
+  opacity: 1;
+}
+.swiper-container {
+  margin: 7rem 0;
+}
+@media screen and (max-width: 768px) {
+  .swiper-container {
+    margin: 4rem 0;
+  }
+  .swiper-slide {
+    width: 100%;
+    height: auto;
+  }
+}
+/* get current active sliders */
+.swiper-slide-active {
+  opacity: 1;
+}

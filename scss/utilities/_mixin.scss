@@ -1,0 +1,16 @@
+@mixin boxShadow {
+  box-shadow: 5px 5px 23px #e6e0e0, -5px -5px 23px #ffffff;
+}
+@mixin cardShadow {
+  box-shadow: 5px 5px 15px #e6e0e0, -5px -5px 16px #ffffff;
+}
+
+@mixin mainFont {
+  font-size: 15px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+}
+h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Quicksand', sans-serif;
+}
