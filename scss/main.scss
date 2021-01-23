@@ -194,6 +194,9 @@
             border-top-right-radius: 30px;
             border-top-left-radius: 30px;
             border-bottom-right-radius: unset;
+            a {
+                margin: 0 15px;
+            }
             &.active {
                 @include boxShadow;
                 transform: translateY(-100%);
@@ -215,9 +218,6 @@
             
             i {
                 margin: 0 10px;
-            }
-            a {
-                margin: 0 15px;
             }
             &:hover {
                 opacity: 1;

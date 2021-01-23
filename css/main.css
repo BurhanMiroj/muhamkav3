@@ -536,6 +536,9 @@ h1, h2, h3, h4, h5, h6, p {
     border-top-left-radius: 30px;
     border-bottom-right-radius: unset;
   }
+  .social-media-wrapper a {
+    margin: 0 15px;
+  }
   .social-media-wrapper.active {
     box-shadow: 5px 5px 23px #e6e0e0, -5px -5px 23px #ffffff;
     transform: translateY(-100%);
@@ -557,9 +560,6 @@ h1, h2, h3, h4, h5, h6, p {
   }
   .social-media-wrapper .close-open-btn i {
     margin: 0 10px;
-  }
-  .social-media-wrapper .close-open-btn a {
-    margin: 0 15px;
   }
   .social-media-wrapper .close-open-btn:hover {
     opacity: 1;
