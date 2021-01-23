@@ -456,7 +456,7 @@ h1, h2, h3, h4, h5, h6, p {
   height: 50vh;
   margin: auto;
   position: fixed;
-  top: 25%;
+  top: 30%;
   left: 0;
   transform: translate(-50%);
   z-index: 5;
@@ -576,5 +576,14 @@ h1, h2, h3, h4, h5, h6, p {
   100% {
     color: #e4405f;
   }
+}
+
+.view {
+  font-weight: 700;
+  background-color: #262626;
+  color: #fff;
+  font-size: .7em;
+  padding: 3px 10px;
+  border-radius: 15px;
 }
 /*# sourceMappingURL=main.css.map */
