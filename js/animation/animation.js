@@ -1,4 +1,6 @@
 const navToggler = document.querySelector(".navbar-toggler");
+const navbar = document.querySelector(".navbar");
+
 navToggler.addEventListener("click", function () {
   const childNavToggler = document.querySelector(".navbar-toggler i");
   const navbar = document.querySelector(".navbar-collapse");
@@ -29,3 +31,13 @@ navToggler.addEventListener("click", function () {
     childNavToggler.classList.replace("fa-times", "fa-bars");
   });
 });
+
+window.addEventListener("scroll", function() {
+  const windowScroll = this.pageYOffset;
+
+  if(windowScroll > navbar.clientHeight) {
+    navbar.classList.add("nav-onscroll")
+  } else {
+    navbar.classList.remove("nav-onscroll")
+  }
+})

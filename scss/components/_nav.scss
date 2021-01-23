@@ -1,8 +1,9 @@
-// all
-// .navbar {
-//   box-shadow: 0 2px 10px #f8f8f8;
-//   background-color: #f8f8f8;
-// }
+@import "../utilities/mixin";
+.navbar {
+  &.nav-onscroll {
+    @include boxShadow;
+  }
+}
 .dropdown-toggle::after {
   display: none !important;
 }
@@ -15,7 +16,7 @@
   .nav-item {
     text-transform: uppercase;
     .dropdown-menu {
-      margin-top: -0.01rem;
+      margin-top: .1rem;
       border-radius: 13px;
       background: #ffffff;
       border: 1px solid rgb(241, 241, 241);

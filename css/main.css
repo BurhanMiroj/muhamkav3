@@ -55,6 +55,18 @@ a {
   opacity: 1;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.navbar.nav-onscroll {
+  box-shadow: 5px 5px 23px #e6e0e0, -5px -5px 23px #ffffff;
+}
+
 .dropdown-toggle::after {
   display: none !important;
 }
@@ -68,7 +80,7 @@ a {
 }
 
 .navbar-nav .nav-item .dropdown-menu {
-  margin-top: -0.01rem;
+  margin-top: .1rem;
   border-radius: 13px;
   background: #ffffff;
   border: 1px solid #f1f1f1;
@@ -436,6 +448,130 @@ h1, h2, h3, h4, h5, h6, p {
 @media screen and (max-width: 768px) {
   .company-logo img {
     max-width: 120px;
+  }
+}
+
+.social-media-wrapper {
+  width: 60px;
+  height: 50vh;
+  margin: auto;
+  position: fixed;
+  top: 25%;
+  left: 0;
+  transform: translate(-50%);
+  z-index: 5;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transform: translateX(-100%);
+  transition: .5s all ease;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.social-media-wrapper.active {
+  box-shadow: 5px 5px 23px #e6e0e0, -5px -5px 23px #ffffff;
+  transform: translateX(0);
+}
+
+.social-media-wrapper a {
+  margin: 10px 0;
+  font-size: 1.5rem;
+}
+
+.social-media-wrapper a:nth-child(1) {
+  color: #3b5999;
+}
+
+.social-media-wrapper a:nth-child(2) {
+  color: #e4405f;
+}
+
+.social-media-wrapper .close-open-btn {
+  position: absolute;
+  right: 0;
+  margin-right: -2.7rem;
+  background-color: #fff;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding: 1rem;
+  cursor: pointer;
+  border-top: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  opacity: .5;
+}
+
+.social-media-wrapper .close-open-btn:hover {
+  opacity: 1;
+}
+
+.social-media-wrapper .close-open-btn i {
+  animation: changeColor 1s linear infinite;
+  font-weight: 900;
+}
+
+.social-media-wrapper .close-open-btn i.icon-active {
+  transform: rotate(-180deg);
+}
+
+@media screen and (max-width: 768px) {
+  .social-media-wrapper {
+    width: 50vw;
+    height: 60px;
+    margin: 0;
+    position: fixed;
+    left: 25%;
+    top: 100%;
+    z-index: 5;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transform: translateY(0%);
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: unset;
+  }
+  .social-media-wrapper.active {
+    box-shadow: 5px 5px 23px #e6e0e0, -5px -5px 23px #ffffff;
+    transform: translateY(-100%);
+  }
+  .social-media-wrapper .close-open-btn {
+    position: absolute;
+    right: 50%;
+    bottom: 100%;
+    margin-right: -2rem;
+    background-color: #fff;
+    border-radius: 0 30px 30px 0;
+    padding: 1rem;
+    cursor: pointer;
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    opacity: .5;
+    transform: rotate(-90deg);
+  }
+  .social-media-wrapper .close-open-btn i {
+    margin: 0 10px;
+  }
+  .social-media-wrapper .close-open-btn:hover {
+    opacity: 1;
+  }
+}
+
+@keyframes changeColor {
+  0% {
+    color: #3b5999;
+  }
+  50% {
+    color: #000;
+  }
+  100% {
+    color: #e4405f;
   }
 }
 /*# sourceMappingURL=main.css.map */
