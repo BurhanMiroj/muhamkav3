@@ -17,6 +17,22 @@ h1, h2, h3, h4, h5, h6, p, li, a {
 
 .btn.btn-success {
   background-color: #13714a !important;
+  border: 3px solid #13714a !important;
+}
+
+.btn.btn-success:hover {
+  color: #13714a !important;
+  background-color: #fff !important;
+}
+
+.btn.btn-danger {
+  background-color: #ff0000 !important;
+  border: 3px solid #ff0000 !important;
+}
+
+.btn.btn-danger:hover {
+  color: #ff0000 !important;
+  background-color: #fff !important;
 }
 
 a {
@@ -85,6 +101,22 @@ h1, h2, h3, h4, h5, h6, p, li, a {
 
 .btn.btn-success {
   background-color: #13714a !important;
+  border: 3px solid #13714a !important;
+}
+
+.btn.btn-success:hover {
+  color: #13714a !important;
+  background-color: #fff !important;
+}
+
+.btn.btn-danger {
+  background-color: #ff0000 !important;
+  border: 3px solid #ff0000 !important;
+}
+
+.btn.btn-danger:hover {
+  color: #ff0000 !important;
+  background-color: #fff !important;
 }
 
 .navbar.nav-onscroll {
@@ -299,6 +331,22 @@ h1, h2, h3, h4, h5, h6, p, li, a {
 
 .btn.btn-success {
   background-color: #13714a !important;
+  border: 3px solid #13714a !important;
+}
+
+.btn.btn-success:hover {
+  color: #13714a !important;
+  background-color: #fff !important;
+}
+
+.btn.btn-danger {
+  background-color: #ff0000 !important;
+  border: 3px solid #ff0000 !important;
+}
+
+.btn.btn-danger:hover {
+  color: #ff0000 !important;
+  background-color: #fff !important;
 }
 
 .download-btn {

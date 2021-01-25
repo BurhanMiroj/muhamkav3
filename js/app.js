@@ -1,5 +1,6 @@
 import "./animation/swiper.js";
 import "./animation/animation.js";
+import "./copy.js";
 
 const closeOpenSocmenBtn = document.querySelector(".close-open-btn");
 const closeOpenIcon = document.querySelector(".close-open-btn i")
