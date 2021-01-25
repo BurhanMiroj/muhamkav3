@@ -786,3 +786,7 @@ form {
 .custom-btn {
   border-radius: unset;
 }
+
+.card-text small {
+  margin-right: 1rem;
+}
