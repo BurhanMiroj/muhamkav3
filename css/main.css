@@ -787,6 +787,8 @@ form {
   border-radius: unset;
 }
 
-.card-text small {
-  margin-right: 1rem;
+@media screen and (max-width: 768px) {
+  .card-text small {
+    margin-right: 2rem;
+  }
 }
