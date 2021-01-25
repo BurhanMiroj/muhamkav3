@@ -1,0 +1,83 @@
+.login-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  & form {
+    width: 80%;
+    height: auto;
+  }
+}
+form {
+  width: 100%;
+}
+.form-control,
+.form-select {
+  padding: 10px 20px;
+}
+@media screen and (min-width: 562px) {
+  .login-wrapper {
+    & form {
+      width: 70%;
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  .login-wrapper {
+    & form {
+      width: 60%;
+    }
+  }
+}
+@media screen and (min-width: 992px) {
+  .login-wrapper {
+    & form {
+      width: 30%;
+    }
+  }
+}
+.user-login {
+  padding: 0 2px;
+}
+.logo-login {
+  width: 150px;
+}
+.bth-link {
+  font-size: 0.9em;
+}
+.input-password-custom {
+  // position: relative;
+  width: 291.8px; // basic bootstrap default input width
+  height: inherit;
+  input {
+    border-top-left-radius: unset;
+    border-bottom-left-radius: unset;
+  }
+  .toggle-password {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10%;
+    height: 100%;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .input-password-custom {
+    // position: relative;
+    width: 290px;
+  }
+}
+.toggle-password-input {
+  input {
+    cursor: pointer;
+  }
+}
+.toggle-password-text {
+  font-size: 0.9em;
+}
+.form-select {
+  cursor: pointer;
+}

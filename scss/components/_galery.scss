@@ -1,0 +1,45 @@
+.img-item {
+    position: relative;
+    overflow: hidden;
+    & > * {
+        transition: .5s all ease;
+    }
+    &:hover img {
+        transform: scale(1.2);
+    }
+    &:hover .img-text {
+        opacity: 1;
+    }
+    .img-text {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        h4 {
+            padding: 10px 0;
+        }
+        .gallery-btn {
+            border: 2px solid #fff;
+            color: inherit;
+            padding: 5px 25px;
+            cursor: pointer;
+            font-size: .7em;
+            font-weight: 700;
+            text-transform: uppercase;
+            border-radius: 3px;
+            transition: .5s all ease;
+            &:hover {
+                background-color: #fff;
+                color: rgba(0, 0, 0, 0.5);
+            }
+        }
+    }
+}

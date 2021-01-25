@@ -14,3 +14,10 @@ h1, h2, h3, h4, h5, h6 {
 h1, h2, h3, h4, h5, h6, p {
   font-family: 'Quicksand', sans-serif;
 }
+.btn {
+  border-top-left-radius: 20px !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 20px !important;
+  border-bottom-left-radius: 0 !important;
+  padding: 7px 20px !important;
+}

@@ -6,14 +6,14 @@ navToggler.addEventListener("click", function () {
   const navbar = document.querySelector(".navbar-collapse");
   const closeLayer = document.querySelector("#close-layer");
   const navItem = document.querySelectorAll(".navbar-nav .nav-item");
-  
-  navItem.forEach(item => {
-    item.addEventListener("click", function() {
-      navbar.classList.remove("navbar-active")
+
+  navItem.forEach((item) => {
+    item.addEventListener("click", function () {
+      navbar.classList.remove("navbar-active");
       closeLayer.classList.remove("active");
       childNavToggler.classList.replace("fa-times", "fa-bars");
-    })
-  })
+    });
+  });
 
   if (navbar.classList.contains("navbar-active")) {
     childNavToggler.classList.replace("fa-times", "fa-bars");
@@ -32,12 +32,12 @@ navToggler.addEventListener("click", function () {
   });
 });
 
-window.addEventListener("scroll", function() {
+window.addEventListener("scroll", function () {
   const windowScroll = this.pageYOffset;
 
-  if(windowScroll > navbar.clientHeight) {
-    navbar.classList.add("nav-onscroll")
+  if (windowScroll > navbar.clientHeight) {
+    navbar.classList.add("nav-onscroll");
   } else {
-    navbar.classList.remove("nav-onscroll")
+    navbar.classList.remove("nav-onscroll");
   }
-})
+});

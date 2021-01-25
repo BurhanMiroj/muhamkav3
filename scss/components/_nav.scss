@@ -15,8 +15,11 @@
 .navbar-nav {
   .nav-item {
     text-transform: uppercase;
+    .nav-link {
+      color: #000;
+    }
     .dropdown-menu {
-      margin-top: .1rem;
+      margin-top: 0;
       border-radius: 13px;
       background: #ffffff;
       border: 1px solid rgb(241, 241, 241);
