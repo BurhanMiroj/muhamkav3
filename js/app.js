@@ -10,4 +10,3 @@ closeOpenSocmenBtn.addEventListener("click", function() {
     socialMediaWrapper.classList.toggle("active")
     closeOpenIcon.classList.toggle("icon-active")
 })
-
