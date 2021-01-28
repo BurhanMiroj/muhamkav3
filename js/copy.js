@@ -1,5 +1,7 @@
-const copyright = document.querySelector(".copyright");
-const time = new Date();
-const year = time.getFullYear();
+function copyright(time, year, thisYear) {
+    time = new Date();
+    year = time.getFullYear();
+    thisYear = this.innerHTML = year;
+}
 
-copyright.innerHTML = year;
+export default copyright;

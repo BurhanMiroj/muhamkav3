@@ -727,6 +727,10 @@ form {
   color: #e4405f;
 }
 
+.social-media-wrapper a:nth-child(3) {
+  color: #ff0000;
+}
+
 .social-media-wrapper .close-open-btn {
   position: absolute;
   right: 0;
@@ -818,7 +822,7 @@ form {
 
 .view {
   font-weight: 700;
-  background-color: #262626;
+  background-color: #13714a;
   color: #fff;
   font-size: 0.7em;
   padding: 3px 10px;
@@ -839,4 +843,77 @@ form {
   .card-text small {
     margin-right: 2rem;
   }
+}
+
+.custom-accordion-btn {
+  position: absolute;
+  right: 0;
+  margin-right: 1rem;
+}
+
+.custom-accordion-btn i {
+  font-size: 1.5rem;
+}
+
+.accordion-button::after {
+  display: none;
+}
+
+:root {
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --fixed-width: 800px;
+}
+
+.questions .dropdown-container {
+  max-width: var(--fixed-width);
+}
+
+.questions .dropdown-container .question {
+  background: #fff;
+  box-shadow: var(--light-shadow);
+  padding: .5rem 1.5rem 0 1.5rem;
+}
+
+.questions .dropdown-container .question .question-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: capitalize;
+  padding-bottom: 1rem;
+}
+
+.questions .dropdown-container .question .question-title .question-btn {
+  font-size: 1.2rem;
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  transition: var(--transition);
+  outline: none !important;
+  border: none !important;
+}
+
+.questions .dropdown-container .question .question-text {
+  padding: 1rem 0 1.5rem 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  display: none;
+}
+
+.questions .dropdown-container .question .question-text p {
+  margin-bottom: 0;
+}
+
+.show-text .question-text {
+  display: block;
+}
+
+.minus-icon {
+  display: none;
+}
+
+.show-text .minus-icon {
+  display: inline;
+}
+
+.show-text .plus-icon {
+  display: none;
 }
