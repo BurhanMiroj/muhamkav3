@@ -6,7 +6,7 @@ class Footer extends HTMLElement {
     render() {
         const time = new Date();
         const year = time.getFullYear();
-        const thisYear = this.innerHTML = year;
+        const thisYear = document.innerHTML = year;
 
         this.innerHTML = `
             <!-- START : Footer Area-->
