@@ -866,6 +866,7 @@ form {
   z-index: 999;
   opacity: 0;
   transition: .5s all ease;
+  margin: 3rem 2rem;
 }
 
 .btn-top a {
@@ -874,4 +875,17 @@ form {
 
 .btn-top.show {
   opacity: 1;
+}
+
+.e-lib-text {
+  padding: 0 2rem;
+}
+
+@media screen and (max-width: 992px) {
+  .btn-top {
+    margin: 2rem 1rem;
+  }
+  .e-lib-text {
+    padding: 0;
+  }
 }

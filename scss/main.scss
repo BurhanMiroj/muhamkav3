@@ -7,6 +7,7 @@
 @import "./components/magazine-section";
 @import "./components/login";
 @import "./components/_galery";
+@import "./components/progdi";
 @media screen and (max-width: 768px) {
   p,
   span,
@@ -363,10 +364,22 @@
   z-index: 999;
   opacity: 0;
   transition: .5s all ease;
+  margin: 3rem 2rem;
   a {
     padding: 1rem;
   }
   &.show {
     opacity: 1;
+  }
+}
+.e-lib-text {
+  padding: 0 2rem;
+}
+@media screen and (max-width: 992px) {
+  .btn-top {
+    margin: 2rem 1rem;
+  }
+  .e-lib-text {
+    padding: 0;
   }
 }
