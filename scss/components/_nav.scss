@@ -17,8 +17,15 @@
     text-transform: uppercase;
     .nav-link {
       color: #000;
+        &:hover {
+        color: rgb(119, 119, 119);
+      }
     }
     .dropdown-menu {
+      .dropdown-item {
+        // font-size: ;
+        text-transform: capitalize;
+      }
       margin-top: 0;
       border-radius: 13px;
       background: #ffffff;
@@ -143,7 +150,6 @@
     }
     .navbar-nav {
       li {
-        border-bottom: 1px solid #ddd;
         .dropdown-menu {
           @include boxShadow();
           margin: 20px;
@@ -165,10 +171,8 @@
 }
 @media (min-width: 992px) {
   .navbar-nav {
-    // width: 70%;
     display: flex;
     justify-content: space-evenly;
-    // background-color: #ddd;
   }
   .mobile-logo {
     display: none;

@@ -10,7 +10,7 @@ class Footer extends HTMLElement {
 
         this.innerHTML = `
             <!-- START : Footer Area-->
-            <footer class="p-0 container border-top">
+            <footer class="container border-top">
             <div class="row m-0">
                 <div class="col-12">
                     <div class="row">
