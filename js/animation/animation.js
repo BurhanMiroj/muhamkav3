@@ -35,7 +35,7 @@ navToggler.addEventListener("click", function () {
 window.addEventListener("scroll", function () {
   const windowScroll = this.pageYOffset;
   const btnTop = document.querySelector(".btn-top");
-  const closeOpenBtn = document.querySelector(".social-media-wrapper");
+  // const closeOpenBtn = document.querySelector(".social-media-wrapper");
 
   if (windowScroll > navbar.clientHeight) {
     navbar.classList.add("nav-onscroll");
@@ -44,9 +44,9 @@ window.addEventListener("scroll", function () {
   }
   if (windowScroll > 500) {
     btnTop.classList.add("show")
-    closeOpenBtn.classList.add("show")
+    // closeOpenBtn.classList.add("show")
   } else {
     btnTop.classList.remove("show")
-    closeOpenBtn.classList.remove("show")
+    // closeOpenBtn.classList.remove("show")
   }
 });
