@@ -18,17 +18,17 @@ class Footer extends HTMLElement {
                     <div class="col-md-4 mt-4 footer-content">
                         <h6 class="my-4">SMK Muhamka</h6>
                         <ul class="list-unstyled pb-4">
-                        <li class="footer-list"><a href="/index.html">Home</a></li>
-                        <li class="footer-list"><a href="#">Tentang Kami</a></li>
-                        <li class="footer-list"><a href="/pages/progdi.html">Progdi</a></li>
-                        <li class="footer-list"><a href="#">Lowongan Pekerjaan</a></li>
+                            <li class="footer-list"><a href="/index.html">Home</a></li>
+                            <li class="footer-list"><a href="#">Tentang Kami</a></li>
+                            <li class="footer-list"><a href="/pages/progdi.html">Progdi</a></li>
+                            <li class="footer-list"><a href="#">Lowongan Pekerjaan</a></li>
                         </ul>
                     </div>
                     <!-- Multi-column 2 of 3 -->
                     <div class="col-md-4 mt-4 footer-content">
                         <h6 class="my-4">Developers</h6>
                         <ul class="list-unstyled pb-4">
-                        <li class=""><a href="#">Contact Developers</a></li>
+                            <li class="footer-list"><a href="#">Contact Developers</a></li>
                         </ul>
                     </div>
                     <!-- Multi-column 3 of 3 -->
@@ -37,15 +37,15 @@ class Footer extends HTMLElement {
                         <img src="/img/logo.png" alt="Logo SMK Muhamka">
                     </div>
                         <ul class="list-unstyled d-block mt-4">
-                        <li class="d-inline">
-                            <a target="_blank" href="https://www.instagram.com/smkmuhamka/?hl=id" class="mr-3"><i class="fab fa-instagram-square text-secondary fs-4 mr-3"></i></a>
-                        </li>
-                        <li class="d-inline">
-                            <a target="_blank" href="https://www.youtube.com/c/SMKMuhamka/videos" class="mr-3"><i class="fab fa-youtube text-secondary fs-4 mx-3"></i></a>
-                        </li>
-                        <li class="d-inline">
-                            <a target="_blank" href="https://www.facebook.com/SMK-Muhammadiyah-Kajen-509128705856891/" class="mr-3"><i class="fab fa-facebook-f text-secondary fs-4"></i></a>
-                        </li>
+                            <li class="d-inline">
+                                <a target="_blank" href="https://www.instagram.com/smkmuhamka/?hl=id" class="mr-3"><i class="fab fa-instagram-square text-secondary fs-5 mr-3"></i></a>
+                            </li>
+                            <li class="d-inline">
+                                <a target="_blank" href="https://www.youtube.com/c/SMKMuhamka/videos" class="mr-3"><i class="fab fa-youtube text-secondary fs-5 mx-3"></i></a>
+                            </li>
+                            <li class="d-inline">
+                                <a target="_blank" href="https://www.facebook.com/SMK-Muhammadiyah-Kajen-509128705856891/" class="mr-3"><i class="fab fa-facebook-square text-secondary fs-5"></i></a>
+                            </li>
                         </ul>      
                     </div>
                     <!-- Full-width column --> 

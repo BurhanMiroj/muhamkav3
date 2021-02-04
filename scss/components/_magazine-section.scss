@@ -7,10 +7,14 @@
   justify-content: center;
   align-items: center;
   width: 180px;
-  padding: 0 20px;
-  height: 40px;
-  border-radius: 3px;
+  // padding: 0 20px;
+  // height: 40px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 0;
   font-size: 0.9rem;
+  padding: 12px 20px;
   i {
     font-size: 1rem;
     margin-right: 10px;
@@ -19,9 +23,15 @@
     color: #ddd;
   }
 }
+.tab-link {
+  color: #000;
+}
+.tab-link:hover {
+  background-color: #ddd;
+  color: #000;
+}
 .tab-link.active {
   background-color: #ddd !important;
-  color: #fff !important;
 }
 .pdf-viewer {
   width: 300px;
@@ -69,5 +79,10 @@
 @media (min-width: 768px) {
   .majalah-description {
     font-size: 1rem;
+  }
+}
+@media (min-width: 992px) {
+  .tab-link {
+    margin: 0 1rem;
   }
 }

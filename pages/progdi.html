@@ -10,19 +10,106 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"/>
   </head>
     <body>
-    <!-- START : Progdi area -->
-    <div class="container mx-auto pb-5">
-        <div class="d-flex align-items-center my-3 py-2 border-bottom">
-          <a href="/index.html">Home</a>
-          <span class="mx-2">/</span>
-          <a class="text-dark fw-bold" href="#">Progdi</a>
+      <div id="close-layer"></div>
+      <!-- START : Navbar -->
+      <nav id="navbar" class="navbar navbar-expand-lg py-md-2 bg-white">
+          <div class="container navbar-wrapper">
+          <!-- Nav logo -->
+          <a class="navbar-brand" href="#">
+              <img src="/img/logo.png" alt="logo">
+          </a>
+          <!-- Nav logo -->
+          <!-- nav mobile button -->
+          <button class="navbar-toggler text-white" type="button">
+              <i class="fas fa-bars"></i>
+          </button>
+          <!-- nav mobile button -->
+          <div class="navbar-collapse" id="navbarNav">
+              <!-- show only on mobile -->
+              <div class="mobile-logo">
+                  <img src="/img/login-logo.png" alt="Logo">
+              </div>
+              <!-- List menu -->
+              <ul class="navbar-nav">
+              <li class="nav-item">
+                  <a class="nav-link" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Profile <i class="fas fa-chevron-down"></i></a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="/pages/profil.html">Profil</a></li>
+                  <li><a class="dropdown-item" href="#">Visi Misi</a></li>
+                  <li><a class="dropdown-item" href="/pages/sejarah.html">Sejarah</a></li>
+                  <li><a class="dropdown-item" href="#">Sarana Prasarana</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Gukar <i class="fas fa-chevron-down"></i></a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Guru</a></li>
+                  <li><a class="dropdown-item" href="#">Karyawan</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Siswa <i class="fas fa-chevron-down"></i></a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Ikatan Pelajar Muhammadiyah</a></li>
+                  <li><a class="dropdown-item" href="#">Ekstrakurikuler</a></li>
+                  <li><a class="dropdown-item" href="#">Prestasi</a></li>
+                  <li><a class="dropdown-item" href="#">Alumni</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Berita <i class="fas fa-chevron-down"></i></a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Berita</a></li>
+                  <li><a class="dropdown-item" href="#">Artkel</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info <i class="fas fa-chevron-down"></i></a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Lowongan</a></li>
+                  <li><a class="dropdown-item" href="#">Kontak</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="/pages/progdi.html">Progdi</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="/pages/gallery.html">Galeri</a>
+              </li>
+              </ul>
+              <!-- end list menu -->
+              <div class="login-btn">
+              <a href="/pages/login.html" class="btn btn-success px-4 fw-bold">Login</a>
+              </div>
+          </div>
+          <!-- end nav menu -->
+          </div>
+      </nav>
+  <!-- END : Navbar -->
+  <div class="pt-5 mt-3">
+    <!-- START: pagination -->
+    <div class="d-none d-md-flex align-items-center justify-content-between my-3 py-3 bg-light-custom">
+      <div class="container mx-auto d-flex">
+        <div class="pagination">
+          <small><a href="/index.html" class="pagination-home">Home</a></small>
+          <small><span class="mx-2">/</span></small>
+          <small><a class="text-dark">Progdi</a></small>
         </div>
-        <div class="text-center">
-            <h2 class="pt-5 text-uppercase fw-bold">Program Studi</h2>
-            <p class="pb-5">SMK Muhammadiyah Kajen</p>
-        </div>
+      </div>
     </div>
-    <!-- END : Progdi area -->
+    <!-- END: pagination -->
+
+    <div class="container mx-auto bg-success bg-gradient text-white ps-5 my-4">
+      <h2 class="pt-5 text-uppercase fw-bold">Program Studi</h2>
+      <p class="pb-5">Program Studi SMK Muhammadiyah Kajen</p>
+    </div>
+    <div class="container mx-auto">
+      
+    </div>
+      
     <!-- START : Footer Area-->
     <custom-footer></custom-footer>
     <!-- END : Footer Area -->
@@ -32,7 +119,8 @@
       integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
       crossorigin="anonymous"></script>
       <!-- FontAwesome -->
-    <script src="https://kit.fontawesome.com/b07851900c.js" crossorigin="anonymous"></script>
-    <script src="/js/components/footer.js"></script>
+      <script src="https://kit.fontawesome.com/b07851900c.js" crossorigin="anonymous"></script>
+      <script src="/js/animation/animation.js"></script>
+      <script src="/js/components/footer.js"></script>
   </body>
 </html>

@@ -1,7 +1,7 @@
 @import "../utilities/mixin";
 .navbar {
   &.nav-onscroll {
-    @include boxShadow;
+    @include cardShadow
   }
 }
 .dropdown-toggle::after {

@@ -39,10 +39,11 @@
   }
   .right-content-video {
     .yt-video {
+      @include boxShadow();
       width: 460px;
       max-width: 460px;
-      height: 260px;
-      border-radius: 3px;
+      height: 259.5px;
+      border-radius: 4px;
     }
   }
 }
@@ -381,5 +382,36 @@
   }
   .e-lib-text {
     padding: 0;
+  }
+}
+
+.card-img-wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: inherit;
+  img {
+    transition: .2s all;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+
+.bg-light-custom {
+  background-color: #f7f7f7;
+}
+.pagination-home {
+  color: #13714a;
+  &:hover {
+    color: rgb(255, 2, 2);
+    text-decoration: underline !important;
+  }
+}
+
+.btn-light {
+  transition: .2s all ease !important;
+  &:hover {
+    transform: translateY(-2px);
   }
 }
