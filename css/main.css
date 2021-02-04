@@ -406,6 +406,9 @@ h1, h2, h3, h4, h5, h6, p, li, a {
 }
 
 @media (max-width: 992px) {
+  .download-btn {
+    padding: 12px 20px;
+  }
   .majalah-description {
     padding: 30px 5px;
   }
@@ -427,8 +430,7 @@ h1, h2, h3, h4, h5, h6, p, li, a {
 @media (max-width: 768px) {
   .download-btn {
     font-size: 0.7rem;
-    width: 140px;
-    padding: 0;
+    width: 160px;
   }
   .download-btn i {
     margin-right: 5px;

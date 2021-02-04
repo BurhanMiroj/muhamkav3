@@ -44,6 +44,9 @@
   text-align: justify;
 }
 @media (max-width: 992px) {
+  .download-btn {
+    padding: 12px 20px;
+  }
   .majalah-description {
     padding: 30px 5px;
   }
@@ -64,8 +67,7 @@
 @media (max-width: 768px) {
   .download-btn {
     font-size: 0.7rem;
-    width: 140px;
-    padding: 0;
+    width: 160px;
     i {
       margin-right: 5px;
     }
