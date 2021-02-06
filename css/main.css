@@ -145,7 +145,7 @@ h1, h2, h3, h4, h5, h6, p, li, a {
 
 .navbar-nav .nav-item .dropdown-menu {
   margin-top: 0;
-  border-radius: 13px;
+  border-radius: 5px;
   background: #ffffff;
   border: 1px solid #f1f1f1;
 }
@@ -943,4 +943,30 @@ form {
 
 .btn-light:hover {
   transform: translateY(-2px);
+}
+
+.card-progdi-wrapper {
+  overflow: hidden;
+}
+
+.card-progdi-wrapper .card-progdi {
+  width: 100%;
+  background: linear-gradient(to top, #13714a, #13714a11);
+}
+
+.card-progdi-wrapper .card-progdi .card-title {
+  padding-top: 2rem;
+}
+
+.card-progdi-wrapper .progdi-image {
+  transition: .3s all ease;
+  width: 100%;
+}
+
+.card-progdi-wrapper:hover .progdi-image {
+  transform: scale(1.1);
+}
+
+.teknik-title:hover {
+  text-decoration: underline !important;
 }
