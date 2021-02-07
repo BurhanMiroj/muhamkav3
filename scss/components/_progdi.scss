@@ -1,0 +1,49 @@
+.card-progdi-wrapper {
+  overflow: hidden;
+  .card-progdi {
+    width: 100%;
+    background: linear-gradient(to top, #13714a, #13714a05);
+    .card-title {
+      padding-top: 2rem;
+    }
+  }
+  .progdi-image {
+    transition: 0.3s all ease;
+    width: 100%;
+  }
+  &:hover .progdi-image {
+    transform: scale(1.1);
+  }
+}
+.teknik-title,
+.text-daihatsu {
+  &:hover {
+    text-decoration: underline !important;
+  }
+}
+.facebook,
+.instagram,
+.twitter {
+  width: 45px;
+  height: 45px;
+  display: grid;
+  place-items: center;
+  transition: 0.3s all ease;
+  &:hover {
+    transform: translateY(-3px);
+  }
+}
+.facebook {
+  background-color: #3b5998;
+}
+.instagram {
+  background-color: #c32aa3;
+}
+.twitter {
+  background-color: #00aced;
+}
+
+.sticky-lg-top {
+  top: 16% !important;
+  // z-index: -1 !important;
+}

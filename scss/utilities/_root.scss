@@ -1,3 +1,23 @@
+* {
+  font-family: 'Quicksand', sans-serif;
+}
 a {
-    text-decoration: none !important;
+  text-decoration: none !important;
+}
+body {
+  &::-webkit-scrollbar {
+		transition: .3s all ease;
+    width: 7px;
+    background-color: rgb(202, 202, 202);
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: #13714a;
+    border-radius: 5px;
+  }
+	// &::-webkit-scrollbar:hover {
+	// 	width: auto;
+	// }
+	// &::-webkit-scrollbar-thumb:hover {
+	// 	border-radius: 2px;
+	// }
 }

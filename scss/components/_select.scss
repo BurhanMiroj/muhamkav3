@@ -1,0 +1,56 @@
+.phone-text {
+  .text-copy {
+    cursor: pointer;
+  }
+  .copy-info {
+    display: none;
+    font-size: 12px;
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 90%;
+      left: 0;
+      border-bottom: 10px solid #262626;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      width: 10px;
+      height: 10px;
+      margin: 0 42%;
+    }
+  }
+  &:hover .copy-info {
+    display: block;
+  }
+}
+.copy-info.isClicked {
+  animation: scale 0.5s linear;
+}
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.2);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@media screen and (max-width: 992px) {
+  .title-profile {
+    margin-top: 2rem;
+  }
+  .phone-text {
+    .copy-info {
+      font-size: 10px;
+    }
+  }
+}
+.text-copy {
+  &:focus {
+    outline: none;
+  }
+}

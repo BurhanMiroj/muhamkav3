@@ -1,7 +1,8 @@
 @import "../utilities/mixin";
 .navbar {
   &.nav-onscroll {
-    @include cardShadow
+    @include cardShadow;
+    z-index: 99999;
   }
 }
 .dropdown-toggle::after {

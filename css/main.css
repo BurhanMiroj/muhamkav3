@@ -3,8 +3,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
 }
 
-h1, h2, h3, h4, h5, h6, p, li, a {
-  font-family: 'Quicksand', sans-serif;
+h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, p::selection, li::selection, a::selection, span::selection, small::selection {
+  background-color: #13714ad3;
+  color: #ffffff;
 }
 
 .btn {
@@ -35,8 +36,23 @@ h1, h2, h3, h4, h5, h6, p, li, a {
   background-color: #fff !important;
 }
 
+* {
+  font-family: 'Quicksand', sans-serif;
+}
+
 a {
   text-decoration: none !important;
+}
+
+body::-webkit-scrollbar {
+  transition: .3s all ease;
+  width: 7px;
+  background-color: #cacaca;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #13714a;
+  border-radius: 5px;
 }
 
 .swiper-container {
@@ -87,8 +103,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
 }
 
-h1, h2, h3, h4, h5, h6, p, li, a {
-  font-family: 'Quicksand', sans-serif;
+h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, p::selection, li::selection, a::selection, span::selection, small::selection {
+  background-color: #13714ad3;
+  color: #ffffff;
 }
 
 .btn {
@@ -121,6 +138,7 @@ h1, h2, h3, h4, h5, h6, p, li, a {
 
 .navbar.nav-onscroll {
   box-shadow: 3px 3px 5px #e6e0e0, -3px -3px 5px #ffffff;
+  z-index: 99999;
 }
 
 .dropdown-toggle::after {
@@ -322,8 +340,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
 }
 
-h1, h2, h3, h4, h5, h6, p, li, a {
-  font-family: 'Quicksand', sans-serif;
+h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, p::selection, li::selection, a::selection, span::selection, small::selection {
+  background-color: #13714ad3;
+  color: #ffffff;
 }
 
 .btn {
@@ -595,6 +614,123 @@ form {
 .img-item .img-text .gallery-btn:hover {
   background-color: #fff;
   color: rgba(0, 0, 0, 0.5);
+}
+
+.card-progdi-wrapper {
+  overflow: hidden;
+}
+
+.card-progdi-wrapper .card-progdi {
+  width: 100%;
+  background: linear-gradient(to top, #13714a, #13714a05);
+}
+
+.card-progdi-wrapper .card-progdi .card-title {
+  padding-top: 2rem;
+}
+
+.card-progdi-wrapper .progdi-image {
+  transition: 0.3s all ease;
+  width: 100%;
+}
+
+.card-progdi-wrapper:hover .progdi-image {
+  transform: scale(1.1);
+}
+
+.teknik-title:hover,
+.text-daihatsu:hover {
+  text-decoration: underline !important;
+}
+
+.facebook,
+.instagram,
+.twitter {
+  width: 45px;
+  height: 45px;
+  display: grid;
+  place-items: center;
+  transition: 0.3s all ease;
+}
+
+.facebook:hover,
+.instagram:hover,
+.twitter:hover {
+  transform: translateY(-3px);
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.instagram {
+  background-color: #c32aa3;
+}
+
+.twitter {
+  background-color: #00aced;
+}
+
+.sticky-lg-top {
+  top: 16% !important;
+}
+
+.phone-text .text-copy {
+  cursor: pointer;
+}
+
+.phone-text .copy-info {
+  display: none;
+  font-size: 12px;
+}
+
+.phone-text .copy-info::after {
+  content: "";
+  position: absolute;
+  bottom: 90%;
+  left: 0;
+  border-bottom: 10px solid #262626;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  width: 10px;
+  height: 10px;
+  margin: 0 42%;
+}
+
+.phone-text:hover .copy-info {
+  display: block;
+}
+
+.copy-info.isClicked {
+  animation: scale 0.5s linear;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.2);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .title-profile {
+    margin-top: 2rem;
+  }
+  .phone-text .copy-info {
+    font-size: 10px;
+  }
+}
+
+.text-copy:focus {
+  outline: none;
 }
 
 @media screen and (max-width: 768px) {
@@ -874,6 +1010,10 @@ form {
   background-color: #13714a;
 }
 
+.paragraf-indent {
+  text-indent: 50px;
+}
+
 .swiper-button-next::after, .swiper-button-prev::after {
   display: none;
 }
@@ -886,13 +1026,20 @@ form {
   opacity: 0;
   transition: .5s all ease;
   margin: 3rem 2rem;
+  transform: scale(0.5);
 }
 
 .btn-top a {
-  padding: 1rem;
+  transition: .3s all ease;
+  padding: 1rem 1.2rem;
+}
+
+.btn-top a:hover {
+  border-radius: 50%;
 }
 
 .btn-top.show {
+  transform: scale(1);
   opacity: 1;
 }
 
@@ -945,28 +1092,52 @@ form {
   transform: translateY(-2px);
 }
 
-.card-progdi-wrapper {
-  overflow: hidden;
+.youtube {
+  color: #ff0000;
 }
 
-.card-progdi-wrapper .card-progdi {
-  width: 100%;
-  background: linear-gradient(to top, #13714a, #13714a11);
+.youtube:hover {
+  color: #c70000;
 }
 
-.card-progdi-wrapper .card-progdi .card-title {
-  padding-top: 2rem;
-}
-
-.card-progdi-wrapper .progdi-image {
+.yt-btn {
   transition: .3s all ease;
-  width: 100%;
 }
 
-.card-progdi-wrapper:hover .progdi-image {
-  transform: scale(1.1);
+.yt-btn span {
+  transition: .3s all ease;
 }
 
-.teknik-title:hover {
-  text-decoration: underline !important;
+.yt-btn:hover span {
+  transform: translateY(-3px);
+}
+
+.muhamka-maps {
+  box-shadow: 5px 5px 23px #e6e0e0, -5px -5px 23px #ffffff;
+  height: 70vh;
+}
+
+.muhamka-image {
+  margin-left: -.8rem;
+  border-radius: 6rem 0 6rem 0;
+}
+
+@media screen and (max-width: 992px) {
+  .muhamka-image {
+    margin-left: 0;
+    border-radius: 4rem 0 4rem 0;
+  }
+}
+
+.accordion-button:focus {
+  position: relative;
+  z-index: -9999 !important;
+}
+
+.message-btn {
+  transition: .3s all ease;
+}
+
+.message-btn:hover {
+  transform: translateX(3px);
 }

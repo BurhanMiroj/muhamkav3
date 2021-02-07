@@ -11,8 +11,11 @@
 h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
 }
-h1, h2, h3, h4, h5, h6, p, li, a {
-  font-family: 'Quicksand', sans-serif;
+h1, h2, h3, h4, h5, h6, p, li, a, span, small {
+  &::selection {
+    background-color: #13714ad3;
+    color: #ffffff;
+  }
 }
 .btn {
   border-top-left-radius: 20px !important;

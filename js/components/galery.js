@@ -6,7 +6,7 @@ $(document).ready(function() {
                 src: '/img/Muhamka-galeri/PPDB/ppdb-slide1.jpg',
             },
             {
-                src: '/img/Muhamka-galeri/PPDB/ppdb-slide2.jpg'
+                src: '/img/Muhamka-galeri/PPDB/ppdb-slide-2.jpg'
             },
             {
                 src: '/img/Muhamka-galeri/PPDB/ppdb-slide3.jpg'
@@ -214,3 +214,4 @@ $(document).ready(function() {
         type: 'image'
     });
 })
+

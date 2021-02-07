@@ -6,8 +6,9 @@
 @import "./components/nav";
 @import "./components/magazine-section";
 @import "./components/login";
-@import "./components/_galery";
+@import "./components/galery";
 @import "./components/progdi";
+@import "./components/select";
 @media screen and (max-width: 768px) {
   p,
   span,
@@ -350,9 +351,9 @@
 // .show-text .plus-icon {
 //   display: none;
 // }
-// .paragraf-indent {
-//   text-indent: 50px;
-// }
+.paragraf-indent {
+  text-indent: 50px;
+}
 .swiper-button-next, .swiper-button-prev {
   &::after {
     display: none;
@@ -366,10 +367,16 @@
   opacity: 0;
   transition: .5s all ease;
   margin: 3rem 2rem;
+  transform: scale(.5);
   a {
-    padding: 1rem;
+    transition: .3s all ease;
+    padding: 1rem 1.2rem;
+    &:hover {
+      border-radius: 50%;
+    }
   }
   &.show {
+    transform: scale(1);
     opacity: 1;
   }
 }
@@ -415,28 +422,44 @@
     transform: translateY(-2px);
   }
 }
-.card-progdi-wrapper {
-  overflow: hidden;
-  .card-progdi {
-    width: 100%;
-    background: linear-gradient(to top, #13714a, #13714a11);
-    .card-title {
-      padding-top: 2rem;
-    }
-  }
-  .progdi-image {
-    transition: .3s all ease;
-    width: 100%;
-  }
-  &:hover .progdi-image {
-    transform: scale(1.1);
-  }
-  // &:hover .card-progdi {
-  //   background: linear-gradient(to top, #262626, #26262688, #26262600);
-  // }
-}
-.teknik-title {
+.youtube {
+  color: #ff0000;
   &:hover {
-    text-decoration: underline !important;
+    color: #c70000;
+  }
+}
+.yt-btn {
+  transition: .3s all ease;
+  span {
+    transition: .3s all ease;
+  }
+  &:hover span {
+    transform: translateY(-3px);
+  }
+}
+.muhamka-maps {
+  @include boxShadow;
+  height: 70vh;
+}
+.muhamka-image {
+  margin-left: -.8rem;
+  border-radius: 6rem 0 6rem 0;
+}
+@media screen and (max-width: 992px) {
+  .muhamka-image {
+    margin-left: 0;
+    border-radius: 4rem 0 4rem 0;
+  }
+}
+.accordion-button {
+  &:focus {
+    position: relative;
+    z-index: -9999 !important;
+  }
+}
+.message-btn {
+  transition: .3s all ease;
+  &:hover {
+    transform: translateX(3px);
   }
 }

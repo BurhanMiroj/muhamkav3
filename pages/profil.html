@@ -3,33 +3,171 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Q & A</title>
-    <!-- styles -->
+    <title>Profil SMK Muhammadiyah Kajen</title>
      <!-- Bootstrap 5 css -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"/>
     <link rel="stylesheet" href="/css/main.css" />
   </head>
   <body>
-    <div class="container mx-auto pb-5">
-        <div class="d-flex align-items-center my-3 py-2 border-bottom">
-          <a href="/index.html">Home</a>
-          <span class="mx-2">/</span>
-          <a class="text-dark fw-bold" href="#">Progdi</a>
-        </div>
-        <div class="text-center">
-            <h2 class="pt-5 text-uppercase fw-bold">Program Studi</h2>
-            <p class="pb-5">SMK Muhammadiyah Kajen</p>
-        </div>
+    <div class="btn-top">
+      <a class="bg-primary text-white" href="#">
+        <i class="fas fa-chevron-up"></i>
+      </a>
     </div>
-    </main>
-    <custom-footer></custom-footer>
-     <!-- FontAwesome -->
-     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-      crossorigin="anonymous"></script>
-     <script src="https://kit.fontawesome.com/b07851900c.js" crossorigin="anonymous"></script>
+    <div id="close-layer"></div>
+    <!-- START : Navbar -->
+    <nav id="navbar" class="navbar navbar-expand-lg py-md-2 bg-white">
+        <div class="container navbar-wrapper">
+        <!-- Nav logo -->
+        <a class="navbar-brand" href="/index.html">
+            <img src="/img/logo.png" alt="logo">
+        </a>
+        <!-- Nav logo -->
+        <!-- nav mobile button -->
+        <button class="navbar-toggler text-white" type="button">
+            <i class="fas fa-bars"></i>
+        </button>
+        <!-- nav mobile button -->
+        <div class="navbar-collapse" id="navbarNav">
+            <!-- show only on mobile -->
+            <div class="mobile-logo">
+                <img src="/img/login-logo.png" alt="Logo">
+            </div>
+            <!-- List menu -->
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                  <a class="nav-link" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Profile <i class="fas fa-chevron-down"></i></a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="/pages/profil.html">Profil</a></li>
+                  <li><a class="dropdown-item" href="/pages/visi-misi.html">Visi Misi</a></li>
+                  <li><a class="dropdown-item" href="/pages/sejarah.html">Sejarah</a></li>
+                  <li><a class="dropdown-item" href="/pages/sarana-prasarana.html">Sarana Prasarana</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Gukar <i class="fas fa-chevron-down"></i></a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="/pages/guru.html">Guru</a></li>
+                  <li><a class="dropdown-item" href="/pages/karyawan.html">Karyawan</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Siswa <i class="fas fa-chevron-down"></i></a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="/pages/ipm.html">Ikatan Pelajar Muhammadiyah</a></li>
+                  <li><a class="dropdown-item" href="/pages/ekstrakurikuler.html">Ekstrakurikuler</a></li>
+                  <li><a class="dropdown-item" href="/pages/prestasi.html">Prestasi</a></li>
+                  <li><a class="dropdown-item" href="/pages/alumni.html">Alumni</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Berita <i class="fas fa-chevron-down"></i></a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="/pages/berita.html">Berita</a></li>
+                  <li><a class="dropdown-item" href="/pages/artikel.html">Artkel</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info <i class="fas fa-chevron-down"></i></a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="/pages/lowongan.html">Lowongan</a></li>
+                  <li><a class="dropdown-item" href="/pages/kontak.html">Kontak</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="/pages/progdi.html">Progdi</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="/pages/gallery.html">Galeri</a>
+              </li>
+            </ul>
+            <!-- END : List Menu -->
+            <div class="login-btn">
+              <a href="/pages/login.html" class="btn btn-success px-4 fw-bold">Login</a>
+            </div>
+          </div>
+        <!-- end nav menu -->
+      </div>
+    </nav>
+  <!-- END : Navbar -->
+    <div class="pt-5 mt-3">
+      <!-- START: pagination -->
+      <div class="d-none d-md-flex align-items-center justify-content-between my-3 py-3 bg-light-custom">
+        <div class="container mx-auto d-flex">
+          <div class="pagination">
+            <small><a href="/index.html" class="pagination-home">Home</a></small>
+            <small><span class="mx-2">/</span></small>
+            <small><a class="text-dark">Profil</a></small>
+          </div>
+        </div>
+      </div>
+      <!-- END: pagination -->
+      <!-- START : Info -->
+      <div class="container mx-auto bg-success bg-gradient text-white ps-5 my-4">
+        <h2 class="pt-5 text-uppercase fw-bold">Profil</h2>
+        <p class="pb-5">Profil lengkap SMK Muhammadiyah Kajen</p>
+      </div>
+      <!-- END : Info -->
+      <main class="container mx-auto my-4 border-top pt-5">
+        <div class="row">
+          <div class="col-12 col-md-5">
+            <img class="w-100 rounded-3" src="/img/Muhamka-galeri/Kampus/gedungUtama-slide1.jpg" alt="Gedung utama SMK Muhammadiyah Kajen">
+          </div>
+          <div class="col-12 col-md-7">
+            <h2 class="pt-2 title-profile">SMK Muhammadiyah Kajen</h2>
+            <a class="text-secondary" href="#maps"><small><i class="fas fa-map-marker-alt"></i> Jl. Pahlawan, Subak, Gejlig, Kec. Kajen, Pekalongan, Jawa Tengah 51161</small></a>
+            <div class="text-xs mt-4"><small>Berdasarkan review di google maps</small></div>
+            <ul class="list-unstyled d-flex text-warning mb-4">
+              <li class="list-item fw-bold pe-1">4,9</li>
+              <li class="list-item"><i class="fas fa-star me-1"></i></li>
+              <li class="list-item"><i class="fas fa-star me-1"></i></li>
+              <li class="list-item"><i class="fas fa-star me-1"></i></li>
+              <li class="list-item"><i class="fas fa-star me-1"></i></li>
+              <li class="list-item"><i class="fas fa-star me-1"></i></li>
+            </ul>
+            <div class="d-flex align-items-center">
+              <a class="text-secondary d-flex align-items-center" href="mailto:smkmuhamka@gmail.com"><i class="fas fa-envelope pe-2"></i><span class="fw-bold message-btn">Kirim pesan</span></a>
+              <span class="phone-text position-relative text-secondary ms-3"><i class="fas fa-phone-alt me-2"></i><input class="border-0 text-copy" type="text" value="0285381464" readonly>
+                <div class="copy-info bg-dark text-white position-absolute top-100 left-0 px-2 py-1 mt-2 ms-4">
+                  <span class="text-xs">Salin nomor</span>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="row my-5">
+          <div class="col-12">
+            <h4>Informasi terkait</h4>
+
+          </div>
+        </div>
+      </main>
+      <!-- START : Map -->
+      <div id="maps" class="container pb-5">
+        <div class="row">
+          <div class="col-12">
+          <iframe class="w-100 muhamka-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1360.1778199718499!2d109.5838834320421!3d-7.021707237545505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e70201e4ceb13fb%3A0x49bf3d6208cfd189!2sSMK%20Muhammadiyah%20Kajen!5e0!3m2!1sid!2sid!4v1612661276133!5m2!1sid!2sid" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </div>
+        </div>
+      </div>
+      <!-- END Map -->
+    </div>
+    
+
+    <!-- START : Footer -->
+    <div class="mb-5">
+      <custom-footer></custom-footer>
+    </div>
+    <!-- END : Footer -->
+    <!-- FontAwesome -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b07851900c.js" crossorigin="anonymous"></script>
     <!-- javascript -->
     <script src="/js/components/footer.js"></script>
+    <script src="/js/animation/animation.js"></script>
+    <script src="/js/select.js"></script>
   </body>
 </html>
