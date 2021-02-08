@@ -138,7 +138,6 @@ h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::s
 
 .navbar.nav-onscroll {
   box-shadow: 3px 3px 5px #e6e0e0, -3px -3px 5px #ffffff;
-  z-index: 99999;
 }
 
 .dropdown-toggle::after {

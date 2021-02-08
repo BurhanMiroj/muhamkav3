@@ -2,7 +2,7 @@
 .navbar {
   &.nav-onscroll {
     @include cardShadow;
-    z-index: 99999;
+    // z-index: 99999;
   }
 }
 .dropdown-toggle::after {
