@@ -1,5 +1,6 @@
 @import "../utilities/mixin";
 .navbar {
+  z-index: 2;
   &.nav-onscroll {
     @include cardShadow;
     // z-index: 99999;

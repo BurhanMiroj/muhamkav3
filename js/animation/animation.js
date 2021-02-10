@@ -4,7 +4,7 @@ navToggler.addEventListener("click", function () {
   const childNavToggler = document.querySelector(".navbar-toggler i");
   const navbar = document.querySelector(".navbar-collapse");
   const closeLayer = document.querySelector("#close-layer");
-  const navItem = document.querySelectorAll(".navbar-nav .nav-item");
+  const navItem = document.querySelectorAll(".navbar-nav .nav-item:not(.dropdown)");
   navItem.forEach((item) => {
     item.addEventListener("click", function () {
       navbar.classList.remove("navbar-active");

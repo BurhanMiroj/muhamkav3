@@ -285,72 +285,6 @@
   background-color: #13714a;
 }
 
-// accordion
-
-// .custom-accordion-btn {
-//   position: absolute;
-//   right: 0;
-//   margin-right: 1rem;
-//   i {
-//     font-size: 1.5rem;
-//   }
-// }
-// .accordion-button::after {
-//   display: none ;
-// }
-
-// :root {
-//   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-//   --fixed-width: 800px;
-// }
-
-
-// .questions {
-//   .dropdown-container {
-//     max-width: var(--fixed-width);
-//     .question {
-//       background: #fff;
-//       box-shadow: var(--light-shadow);
-//       padding: .5rem 1.5rem 0 1.5rem;
-//       .question-title {
-//         display: flex;
-//         justify-content: space-between;
-//         align-items: center;
-//         text-transform: capitalize;
-//         padding-bottom: 1rem;
-//         .question-btn {
-//           font-size: 1.2rem;
-//           background: transparent;
-//           border-color: transparent;
-//           cursor: pointer;
-//           transition: var(--transition);
-//           outline: none !important;
-//           border: none !important;
-//         }
-//       }
-//       .question-text {
-//         padding: 1rem 0 1.5rem 0;
-//         border-top: 1px solid rgba(0, 0, 0, 0.2);
-//         display: none;
-//         p {
-//           margin-bottom: 0;
-//         }
-//       }
-//     }
-//   }
-// }
-// .show-text .question-text {
-//   display: block;
-// }
-// .minus-icon {
-//   display: none;
-// }
-// .show-text .minus-icon {
-//   display: inline;
-// }
-// .show-text .plus-icon {
-//   display: none;
-// }
 .paragraf-indent {
   text-indent: 50px;
 }
@@ -450,11 +384,14 @@
     margin-left: 0;
     border-radius: 4rem 0 4rem 0;
   }
+  .title-profile {
+    margin-top: -.3rem;
+    padding-top: 0 !important;
+  }
 }
-.accordion-button {
-  &:focus {
-    position: relative;
-    z-index: -9999 !important;
+@media screen and (max-width: 992px) {
+  .title-profile {
+    margin-top: 2rem;
   }
 }
 .message-btn {
@@ -462,4 +399,20 @@
   &:hover {
     transform: translateX(3px);
   }
+}
+.accordion-button{
+  z-index: 1 !important;
+  &:focus {
+    box-shadow: none;
+  }
+}
+.accordion-button:not(.collapsed) {
+  color: inherit;
+}
+
+.profil-image {
+  width: 50px;
+  height: 50px;
+  display: grid;
+  place-items: center;
 }

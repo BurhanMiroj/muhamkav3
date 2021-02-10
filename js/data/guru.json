@@ -1,0 +1,662 @@
+{
+    "guru" : [
+        {
+            "id" : "1",
+            "nama" : "M Rustam Aji, S.Pd",
+            "jabatan" : "Kepala Sekolah",
+            "pengampu" : "Praktik TKRO",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "2",
+            "nama" : "Drs. Arif Rosyid",
+            "jabatan" : "Waka Ketenagaan",
+            "pengampu" : "Praktik TKRO",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "3",
+            "nama" : "Juanedi, S.Pd",
+            "jabatan" : "Waka Sarpras",
+            "pengampu" : "Praktik TAV, PKK",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "4",
+            "nama" : "Asep Widiyanto, S.T",
+            "jabatan" : "Waka Manajemen Mutu",
+            "pengampu" : "Praktik TKRO",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "5",
+            "nama" : "Cipto Wiharso, S.T",
+            "jabatan" : "Waka Humas",
+            "pengampu" : "Praktik TKRO",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "6",
+            "nama" : "M. Mahfut, S.Si.T.",
+            "jabatan" : "Waka Kurikulum",
+            "pengampu" : "Praktik TAV",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "7",
+            "nama" : "Andriva Fintri Asmoro, S.Pd.",
+            "jabatan" : "Waka Kesiswaan",
+            "pengampu" : "Matematika",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "8",
+            "nama" : "Siti Anik, S. Ag",
+            "jabatan" : "Guru",
+            "pengampu" : "Ibadah, Al-Qur'an & Hadits",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "9",
+            "nama" : "Yuli Setyowati, S.S",
+            "jabatan" : "Guru",
+            "pengampu" : "Bahasa Indonesia",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "10",
+            "nama" : "Aprilia Dwi Mulyandari, S.Pd",
+            "jabatan" : "Guru",
+            "pengampu" : "Bahasa Inggris",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "11",
+            "nama" : "Ir. Dulsukur",
+            "jabatan" : "Guru",
+            "pengampu" : "Praktik KI, PKK",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "12",
+            "nama" : "Rudi Lustio, S.T",
+            "jabatan" : "Guru",
+            "pengampu" : "Praktik TAV, TE",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "13",
+            "nama" : "Sigit Dwijito Putranto, S.Psi",
+            "jabatan" : "Guru",
+            "pengampu" : "BK XI TKR 1, 2, 3, 4, 5",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "14",
+            "nama" : "Abdul Kholik, S.Pd",
+            "jabatan" : "Guru",
+            "pengampu" : "Praktik TKRO, TO",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "15",
+            "nama" : "Brison Setiardi, S.Pd",
+            "jabatan" : "Guru",
+            "pengampu" : "Kimia C1, Praktik KI",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "16",
+            "nama" : "Yuyun Setyawati, S.Pd",
+            "jabatan" : "Guru",
+            "pengampu" : "PPKN",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "17",
+            "nama" : "Erna Rusmalina, S.S",
+            "jabatan" : "Guru",
+            "pengampu" : "Bahasa Inggris",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "18",
+            "nama" : "Khoirunnisa, S.Pd.I",
+            "jabatan" : "Guru",
+            "pengampu" : "Ibadah, Al-Qur'an Hadits",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "19",
+            "nama" : "Musrifah, S.Pd",
+            "jabatan" : "Guru",
+            "pengampu" : "Seni Budaya",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "20",
+            "nama" : "Budiono, S.T",
+            "jabatan" : "Guru",
+            "pengampu" : "Praktik TKRO & Teori TKRO",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "21",
+            "nama" : "Drs. Sutono",
+            "jabatan" : "Guru",
+            "pengampu" : "Kemuhammadiyahan",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "22",
+            "nama" : "Drs. ANASRULLAH",
+            "jabatan" : "Guru",
+            "pengampu" : "Bahasa Indonesia",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "23",
+            "nama" : "Sukamta, S.Pd.",
+            "jabatan" : "Guru",
+            "pengampu" : "Sejarah Indonesia",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "24",
+            "nama" : "Dri Sugiyarso, S.Pd.",
+            "jabatan" : "Guru",
+            "pengampu" : "Praktik TAV",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "25",
+            "nama" : "ATMI WIDIASTUTI, S.T.",
+            "jabatan" : "Guru",
+            "pengampu" : "Praktik KI, PKK",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "26",
+            "nama" : "Soleh Zafudin S.Pd.",
+            "jabatan" : "Guru",
+            "pengampu" : "Praktik TKRO",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "27",
+            "nama" : "SUMIARSIH, S.Pd.",
+            "jabatan" : "Guru",
+            "pengampu" : "PPKN",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "28",
+            "nama" : "Dwi Joko Santoso, S.T.",
+            "jabatan" : "Guru",
+            "pengampu" : "Praktik TAV, PKK",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "29",
+            "nama" : "Bandiyo, A.Md.",
+            "jabatan" : "Guru",
+            "pengampu" : "Praktik TKJ, KJD, SK",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "30",
+            "nama" : "Moh. Arif Akhkamudin, S.T.",
+            "jabatan" : "Guru",
+            "pengampu" : "Praktik TKRO, TO, PKK",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "31",
+            "nama" : "Miftachudin, S.T.",
+            "jabatan" : "Guru",
+            "pengampu" : "Praktik TKRO, TO, PKK",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "32",
+            "nama" : "Herlambang HF, S.T.",
+            "jabatan" : "Guru",
+            "pengampu" : "Praktik TKRO, TO, PKK",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "33",
+            "nama" : "Reheni Dwi Herwati, S.Pd.",
+            "jabatan" : "Guru",
+            "pengampu" : "Bahasa Indonesia",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "34",
+            "nama" : "Eka Rahmawati, S.Si.",
+            "jabatan" : "Guru",
+            "pengampu" : "Praktik KA, TKA, KIM",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "35",
+            "nama" : "Khasan Bisri, S.Pd.",
+            "jabatan" : "Guru",
+            "pengampu" : "Praktik TKRO, TO, PKK",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "36",
+            "nama" : "Heri Tri Wibowo, S.T. S.Pd.",
+            "jabatan" : "Guru",
+            "pengampu" : "Praktik TKRO, TO",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "37",
+            "nama" : "Catur Bekti Sulistyo, S.Pd.",
+            "jabatan" : "Guru",
+            "pengampu" : "Penjasorkes",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "38",
+            "nama" : "Rul Ayati, S.E.",
+            "jabatan" : "Guru",
+            "pengampu" : "Prakarya",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "39",
+            "nama" : "Muhammad Batubara, S.Kom.",
+            "jabatan" : "Guru",
+            "pengampu" : "Praktik TKJ, TK, SK",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "40",
+            "nama" : "A. ZAENUL MUTTAQIN, S.H.I.",
+            "jabatan" : "Guru",
+            "pengampu" : "Tarikh, Kemuhammadiyahan",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "41",
+            "nama" : "Yogi Prasetyo, S.Pd.I.",
+            "jabatan" : "Guru",
+            "pengampu" : "Aqoid, Al-Qur'an, Ibadah",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "42",
+            "nama" : "Hery Hermawan, S.Pd.",
+            "jabatan" : "Guru",
+            "pengampu" : "Matematika",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "43",
+            "nama" : "Iin Budiarti, S.Si.",
+            "jabatan" : "Guru",
+            "pengampu" : "Fisika",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "44",
+            "nama" : "Rudi Widianto, S.Pd.",
+            "jabatan" : "Guru",
+            "pengampu" : "Bahasa Inggris",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "45",
+            "nama" : "Roro Pujiatmi, S.Pd.",
+            "jabatan" : "Guru",
+            "pengampu" : "Bahasa Jawa",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "46",
+            "nama" : "Dian Nugrahaningsih, S.T.",
+            "jabatan" : "Guru",
+            "pengampu" : "Praktik TKRO, TO",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "47",
+            "nama" : "Darmaji, S.T.",
+            "jabatan" : "Guru",
+            "pengampu" : "Praktik TKRO, TO",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "48",
+            "nama" : "Sutaryo, S.Kom.",
+            "jabatan" : "Guru",
+            "pengampu" : "Praktik TKJ, SK",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "49",
+            "nama" : "Rizki Kurniawan, S.Pd.",
+            "jabatan" : "Guru",
+            "pengampu" : "BK XI TKR 6 & TKJ 1-4",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "50",
+            "nama" : "Sumardiono, S.T.",
+            "jabatan" : "Guru",
+            "pengampu" : "Praktik TKJ, PD",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "51",
+            "nama" : "Sofa Maulana, S.Pd.I.",
+            "jabatan" : "Guru",
+            "pengampu" : "Ibadah, Al-Qur'an, Aqidah",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "52",
+            "nama" : "Churiyatur Roshida, S.Pd.",
+            "jabatan" : "Guru",
+            "pengampu" : "Sejarah Indonesia",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "53",
+            "nama" : "Tika Salasa, S.Pd.",
+            "jabatan" : "Guru",
+            "pengampu" : "Penjasorkes",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "54",
+            "nama" : "Sugiharto, S.Pd.",
+            "jabatan" : "Guru",
+            "pengampu" : "Bahasa Inggris",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "55",
+            "nama" : "Siti Fadlillah, S.Pd.",
+            "jabatan" : "Guru",
+            "pengampu" : "Matematika",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "56",
+            "nama" : "Puji Hartanti, S.Pd.",
+            "jabatan" : "Guru",
+            "pengampu" : "BK X TKJ 2-4, KA & KI",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "57",
+            "nama" : "Muhammad Nur Arifin, S.Pd.",
+            "jabatan" : "Guru",
+            "pengampu" : "BK X TKR 5, 6, KI & XI TAV 1,2",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "58",
+            "nama" : "Muhammad Iqbal, S.Pd.",
+            "jabatan" : "Guru",
+            "pengampu" : "BK XI TKR 1-5",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "59",
+            "nama" : "Miftakhudin, S.Kom.",
+            "jabatan" : "Guru",
+            "pengampu" : "Praktik TKJ, KJD",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "60",
+            "nama" : "Miftahul Ariaprilia Setiani, S.Kom.",
+            "jabatan" : "Guru",
+            "pengampu" : "Praktik TKJ, DG",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "61",
+            "nama" : "Imam Fajar Rosyadi, S.Pd.",
+            "jabatan" : "Guru",
+            "pengampu" : "Praktik KA",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "62",
+            "nama" : "Rizki Sandi Widodo",
+            "jabatan" : "Guru",
+            "pengampu" : "Praktik KA",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "63",
+            "nama" : "Indiana Krisnawati, S.T",
+            "jabatan" : "Guru",
+            "pengampu" : "Praktik KI, TKI",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "64",
+            "nama" : "Anita Setyasih, S.Pd.",
+            "jabatan" : "Guru",
+            "pengampu" : "Praktik KA, TKA",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "65",
+            "nama" : "Daya Romansa, S.Pd.",
+            "jabatan" : "Guru",
+            "pengampu" : "Praktik KA, TKA",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "66",
+            "nama" : "Son Haji, S.Sn.",
+            "jabatan" : "Guru",
+            "pengampu" : "Seni Budaya",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "67",
+            "nama" : "Aprilia Inayati, S.Pd.",
+            "jabatan" : "Guru",
+            "pengampu" : "BK XI TAV 1-3, KA & KI",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "68",
+            "nama" : "Angga Setiyawan, S.Pd",
+            "jabatan" : "Guru",
+            "pengampu" : "Bahasa Indonesia",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "69",
+            "nama" : "Heri Narwanto, S.Kom.",
+            "jabatan" : "Guru",
+            "pengampu" : "Praktik TKJ, TK",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "70",
+            "nama" : "Martha Atika Ayudi Dharma, S.Pd.",
+            "jabatan" : "Guru",
+            "pengampu" : "Penjasorkes",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "71",
+            "nama" : "Muhamad Zabidin, S.Pd.",
+            "jabatan" : "Guru",
+            "pengampu" : "PPKN, SI",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "72",
+            "nama" : "Muhamad Mustofa, S.Pd.I",
+            "jabatan" : "Guru",
+            "pengampu" : "Aqoid, Akhlaq",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "72",
+            "nama" : "Nihla Nurul Laili, S.Pd.",
+            "jabatan" : "Guru",
+            "pengampu" : "Fisika",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "74",
+            "nama" : "M. Eko Budi Rahayu, S.Pd.",
+            "jabatan" : "Guru",
+            "pengampu" : "Praktek TKRO, TO",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "75",
+            "nama" : "Dimas Riwianto Wahyu Nugroho, S.Pd",
+            "jabatan" : "Guru",
+            "pengampu" : "Praktik TKRO, GT, PKK",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "75",
+            "nama" : "Dimas Riwianto Wahyu Nugroho, S.Pd",
+            "jabatan" : "Guru",
+            "pengampu" : "Praktik TKRO, GT, PKK",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "76",
+            "nama" : "Sugeng Ginanjar, S.Pd",
+            "jabatan" : "Guru",
+            "pengampu" : "Praktik TKRO & Teori TKRO",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "77",
+            "nama" : "Wiyarto, S.Pd",
+            "jabatan" : "Guru",
+            "pengampu" : "Praktik TAV, TE, PKK",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "78",
+            "nama" : "Arif Lahmudin Ali, S.Pd",
+            "jabatan" : "Guru",
+            "pengampu" : "Simulasi Digital",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "79",
+            "nama" : "Etika Rosiani, S.Pd",
+            "jabatan" : "Guru",
+            "pengampu" : "Simulasi Digital",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "80",
+            "nama" : "Reka Trivika Sari, S.Pd",
+            "jabatan" : "Guru",
+            "pengampu" : "Bahasa Inggris, Teori PKK",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "81",
+            "nama" : "Oky Nurkhasanah, S.Pd",
+            "jabatan" : "Guru",
+            "pengampu" : "BK XI KA,KI & TKJ 1, 2, 3",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "82",
+            "nama" : "Kusmanto Setyadi, S.Pd",
+            "jabatan" : "Guru",
+            "pengampu" : "Bahasa Indonesia",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "83",
+            "nama" : "Ulfa Pandu Dewanti, S.Pd",
+            "jabatan" : "Guru",
+            "pengampu" : "Praktik KA, TKA",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "84",
+            "nama" : "Moch. Agita Fauzi, S.Kom",
+            "jabatan" : "Guru",
+            "pengampu" : "Praktik TKJ, KJD, TK",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "85",
+            "nama" : "Nufan Rizqi Prasetiya, S.Kom",
+            "jabatan" : "Guru",
+            "pengampu" : "Praktik TKJ, KJD, TK",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "86",
+            "nama" : "M. Chairul Aris, S.Pd",
+            "jabatan" : "Guru",
+            "pengampu" : "Praktik TKRO, TO",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "87",
+            "nama" : "Fidati Khasanah, S.Sos",
+            "jabatan" : "Guru",
+            "pengampu" : "BK",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "88",
+            "nama" : "Mirza Mahbub Wijaya, M. Pd",
+            "jabatan" : "Guru",
+            "pengampu" : "Aqoid, Bahasa Arab",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "89",
+            "nama" : "Rahmawati, S.Pd",
+            "jabatan" : "Guru",
+            "pengampu" : "Tarikh, Kemuhammadiyahan",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "90",
+            "nama" : "Rizki Retno Manggali. S.Pd",
+            "jabatan" : "Guru",
+            "pengampu" : "Praktik TAV, PKK",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "91",
+            "nama" : "Eriq Supriyanto, S.Pd",
+            "jabatan" : "Guru",
+            "pengampu" : "Praktik TKRO, PKK",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "92",
+            "nama" : "Ari Pamungkas, A.Md",
+            "jabatan" : "Guru",
+            "pengampu" : "Praktik TKJ, TK",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        },
+        {
+            "id" : "93",
+            "nama" : "Irfandi Lutfi",
+            "jabatan" : "Guru",
+            "pengampu" : "Ibadah & Al-Qur'an",
+            "profilPic" : "<i class='fas fa-user'></i>"
+        }
+    ]
+}
